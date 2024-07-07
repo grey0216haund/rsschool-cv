@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
-    <link rel="stylesheet" href="static/styles/style.css" />
+    <link rel="stylesheet" href="https://forumstatic.ru/files/001c/33/f2/19800.css"/>
     <style>
       a {
         text-decoration: none;
@@ -64,8 +64,8 @@
             <h4>I am sure that over time I will be able to devote more time to what I love. I will also be able to master even more information due to the ability to manage my time, search for information on the Internet, as well as the desire to master as many skills as possible. At the moment, my plan is to take an initial course in Java development, as well as improve my English language proficiency.</h4>
             <h3>Education</h3>
             <h4>Vologda State Dairy Academy<br>
-                named after N.V. Vereshchagin<br>                
-                Years: 2010 - 2015<br>            
+                named after N.V. Vereshchagin<br>
+                Years: 2010 - 2015<br>
                 Specialization: Veterinary</h4>
             <h3>Courses</h3>
             <h4>RS Schools «JavaScript/Front-end. Stage 0»</h4>
@@ -74,9 +74,9 @@
           </div>
           <div class="code">function createPhoneNumber(numbers) {
             numbers = numbers.join('');
-            return '(' + numbers.substring(0, 3) + ') ' 
-                + numbers.substring(3, 6) 
-                + '-' 
+            return '(' + numbers.substring(0, 3) + ') '
+                + numbers.substring(3, 6)
+                + '-'
                 + numbers.substring(6);
           }</div>
         </div>
@@ -94,5 +94,6 @@
       </footer>
     </div>
     </div>
+
   </body>
 </html>
