@@ -87,7 +87,7 @@
           <img class="github-icon" src="https://forumstatic.ru/files/001c/33/f2/91842.svg" alt="Github Icon" width="26" height="26">
           <p>Visit my GitHub</p>
         </a>
-        <p>© 2021</p>
+        <p>© 2024</p>
         <a href="https://rs.school/js/">
           <img src="https://forumstatic.ru/files/001c/33/f2/86036.svg" alt="Rsschool Icon" width="73" height="26">
         </a>
