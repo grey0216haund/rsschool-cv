@@ -1,0 +1,156 @@
+:root,
+.spring {
+  --black: 0 0 1;
+  --white: 255 255 255;
+  --grey: 118 118 118;
+  --dark_grey: 24 24 24;
+  --yellow: 255 224 145;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(var(--grey));
+}
+
+.container {
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 0.15);
+  background-color: rgb(var(--white));
+}
+
+.columns {
+  display: flex;
+}
+
+/* левая сторона */
+
+.left-column {
+  width: 35%;
+  color: rgb(var(--white));
+  background-color: rgb(var(--black));
+}
+
+.main h3 {
+  font-weight: 500;
+  margin-left: 50px;
+  width: 545px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(var(--yellow));
+}
+
+.main li {
+  font-weight: 100;
+  margin-left: 28px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.name {
+  background-color: #ffe091;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px 0px 1px 50px;
+  text-transform: uppercase;
+  margin-left: -40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* правая сторона */
+
+.right-column {
+  width: 35%;
+  color: rgb(var(--black));
+  background-color: rgb(var(--white));
+}
+
+.header {
+  width: 606px;
+  padding: 30px;
+  margin-top: 5rem;
+  background-color: rgb(var(--yellow));
+}
+
+.header h1 {
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 0 0px 0 30px;
+  font-size: 44px;
+  line-height: 1.1;
+  margin-block-end: 0.07em;
+  letter-spacing: 5px;
+}
+
+.header h2 {
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 0 0px 0 30px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-block-start: 0em;
+}
+
+.info {
+  width: 606px;
+  padding: 30px;
+}
+
+.info h3 {
+  font-weight: 500;
+  margin-left: 30px;
+  width: 545px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(var(--dark_grey));
+}
+
+.info h4 {
+  font-weight: 100;
+  width: 545px;
+  margin-left: 30px;
+  letter-spacing: 1.7px;
+  font-size: 10px;
+}
+
+.code {
+  margin-left: -175px;
+  width: 700px;
+  padding-left: 30px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+/* футерс */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: rgb(var(--black));
+}
+
+footer a {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-github img {
+  margin-right: 10px;
+}
